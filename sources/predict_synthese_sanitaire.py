@@ -57,6 +57,6 @@ clf.fit(X_train_test, y_train)
 y_prod = clf.predict(X_test_text)
 print(classification_report(y_test, y_prod))
 
-#2. entrainer un modèle scikit learn
-#3. 
-
+print("Kebab de la street : ")
+print(clf.predict(vectorizer.transform(["Kebab de la street"])))
+print(type(clf.predict(vectorizer.transform(["Kebab de la street"]))))
