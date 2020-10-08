@@ -3,7 +3,8 @@
 import pandas
 #df_alim = pandas.read_csv("C:\\Users\\flore\\OneDrive\\Documents\\M2 DATA MINING\\Séminaire Python DevOps MLops pavel Sorano\\Projet\\data\\export_alimconfiance.csv", sep=";")
 #df_alim = pandas.read_csv("C:\\Users\\flore\\Desktop\\export_alimconfiance.csv", sep=";")
-df_alim = pandas.read_csv("/home/florent/Documents/Seminaire_Python_DevOps_MLOps/data/export_alimconfiance.csv", sep=";")
+df_alim = pandas.read_csv("./data/export_alimconfiance.csv", sep=";")
+#/home/florent/Documents/Seminaire_Python_DevOps_MLOps/data/export_alimconfiance
 df_alim.columns
 
 #concaténation de variables 
